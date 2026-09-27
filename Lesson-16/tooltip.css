@@ -1,0 +1,61 @@
+.video-tooltip {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  bottom: 12px;
+  left: 12px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.489);
+  border-radius: 12px;
+  height: 80px;
+  width: 240px;
+  padding: 12px;
+
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.video-tooltip img {
+  height: 50px;
+  width: 50px;
+}
+
+.video-card:hover .video-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 0 4px gray;
+  padding: 8px 12px;
+  font-size: 12px;
+  bottom: -36px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-bar:hover .tooltip {
+  opacity: 1;
+}
+.mic:hover .tooltip {
+  opacity: 1;
+}
+.menu-icon:hover .tooltip {
+  opacity: 1;
+}
+.profile-icon:hover .tooltip {
+  opacity: 1;
+}
+.bell:hover .tooltip {
+  opacity: 1;
+}
