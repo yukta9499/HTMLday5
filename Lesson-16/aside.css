@@ -1,0 +1,23 @@
+.aside-tab {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  margin-top: 60px;
+  width: 100px;
+  padding: 0px 12px;
+}
+.aside-link {
+  height: 80px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+.aside-link:hover {
+  background-color: rgba(192, 192, 192, 0.437);
+}
+.aside-link img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+}
