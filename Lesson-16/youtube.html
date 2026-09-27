@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="aside.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="tooltip.css" />
+</head>
+
+<body>
+    <header class="nav-tab">
+        <!-- logo part -->
+        <div class="flex-center gap">
+            <div class="menu-icon flex-center">
+                <img src="icons/hamburger.png" alt="" />
+                <div class="tooltip">menu button</div>
+            </div>
+            <button class="logo flex-center gap">
+                <img src="icons/youtube-icon.png" alt="" />
+                <p>Youtube</p>
+                <sup class="superscript">IN</sup>
+            </button>
+        </div>
+
+        <!-- search bar part -->
+        <div class="flex-center gap">
+            <div class="search-bar flex-center">
+                <input type="text" placeholder="search" />
+                <button class="search-btn flex-center">
+                    <img src="icons/search.png" alt="search" />
+                </button>
+                <div class="tooltip">Search here</div>
+            </div>
+            <button class="flex-center mic">
+                <img src="icons/microphone.png" alt="" />
+                <div class="tooltip">Speak into mic</div>
+            </button>
+        </div>
+
+        <!-- buttons part -->
+        <div class="flex-center gap">
+            <button class="flex-center gap create-btn">
+                <img src="icons/plus.png" alt="" />
+                <p>Create</p>
+            </button>
+            <div class="bell">
+                <img src="icons/bell.png" alt="" />
+                <div class="tooltip">notifications</div>
+            </div>
+            <div class="profile-icon">
+                <div class="tooltip">profile</div>
+            </div>
+        </div>
+    </header>
+    <div>
+        <aside class="aside-tab">
+            <div class="aside-link flex-center">
+                <img src="icons/home.png" alt="" />
+            </div>
+        </aside>
+        <main class="main-screen">
+            <div class="card-container">
+                <div class="video-card">
+                    <a href="https://www.youtube.com/watch?v=TtPXvEcE11E" target="_blank">
+                        <div class="video-thumbnail">
+                            <img src="thumbnails/javascript-course.avif" alt="" />
+                        </div>
+                        <div class="video-info">
+                            <div>
+                                <a href="https://www.youtube.com/@SuperSimpleDev">
+                                    <img src="thumbnails/supersimpledev.jpg" alt="" />
+                                    <div class="video-tooltip">
+                                        <img src="thumbnails/supersimpledev.jpg" alt="" />
+                                        <div>
+                                            <p>SuperSimpleDev</p>
+                                            <p class="muted-container">1.5M subscribers</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <div class="flex-center">
+                                    <p class="video-title">
+                                        React Tutorial Full Course - Beginner to Pro (React 19,
+                                        2025)
+                                    </p>
+                                    <div class="video-options">
+                                        <img src="icons/dots.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class="muted-container gap-tiny flex-center">
+                                    <p>supersimpledev</p>
+                                    <p>•</p>
+                                    <p>1.2M</p>
+                                    <p>•</p>
+                                    <p>1 yr ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
